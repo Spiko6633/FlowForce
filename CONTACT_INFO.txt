@@ -1,0 +1,33 @@
+FlowForge AI - Submission Contact Information
+================================================
+Team: Shadu Team (啥都队)
+Competition: XiHack 2026 + Hankesong S1 & ETH Wuhan 2026
+Tracks: AI x Blockchain (Main) / GCC Public Good (Sub)
+Project: FlowForge AI - Multi-Agent Workflow Orchestration with On-Chain Evidence
+Version: v2.69
+Contact: 15018808475
+Email: shadu.team@xihack2026.dev
+Date: 2026-10-08
+
+Deliverables:
+- FlowForgeAI_PitchDeck.pptx (16 slides, Chinese pitch deck)
+- deliverables/FlowForgeAI_Demo.mp4 (optimized video, 1080p, 30fps)
+- start.bat (one-click launcher)
+- docs/ (BOT Chain deployment, three-track coverage, demo guide, etc.)
+- backend/ (FastAPI + web3.py + BOT Chain integration)
+- frontend/ (Vue3 + ArkUI + ECharts)
+- config/ (version.json)
+- scripts/ (optimization scripts)
+
+Key Features:
+- 13 Agent Templates
+- 22 Workflow Templates
+- 15 Marketplace Items
+- 59,211+ Node Executions
+- 524+ Score Records
+- BOT Chain Mainnet Integration (8 API endpoints)
+- Real-time Monitoring with SSE
+- Cost Analysis with Multi-model Pricing
+- 5-dimension Score Dashboard
+- Compliance Guard (ModelOutputGuard)
+- On-chain Evidence (RemoteChainBackend)

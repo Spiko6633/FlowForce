@@ -1,0 +1,42 @@
+{
+  "marker": "chain_evidence_page",
+  "source_ppt": "D:\\西客松\\FlowForgeAI_PitchDeck_CN.pptx",
+  "track": "extended",
+  "incremental": true,
+  "preserved_xikesong": true,
+  "page_count": 4,
+  "pages": [
+    {
+      "page_id": "chain_page_arch",
+      "title": "链上存证架构图",
+      "layout": "architecture",
+      "content": "存证架构：Agent执行结果 → 内容哈希 → ERC-8004注册 → BOT Chain合约落块 → 链上回读验证 → 第三方可独立验证",
+      "evidence_key": "chain:value_points",
+      "track": "both"
+    },
+    {
+      "page_id": "chain_page_contract_sequence",
+      "title": "合约调用序列",
+      "layout": "sequence",
+      "content": "WorkflowEvidence.register(workflow_id, content_hash, timestamp) → WorkflowEvidence.verify(evidence_id, content) → WorkflowEvidence.getChainTip()",
+      "evidence_key": "chain:contract_sequence",
+      "track": "extended"
+    },
+    {
+      "page_id": "chain_page_hash_chain",
+      "title": "证据哈希链",
+      "layout": "chain",
+      "content": "block_hash = H(content_hash | timestamp | prev_hash)，prev_hash链接前块形成链式结构，genesis=0x00..00",
+      "evidence_key": "chain:evidence_hash_chain",
+      "track": "extended"
+    },
+    {
+      "page_id": "chain_page_latency_metric",
+      "title": "存证延迟≤1s指标",
+      "layout": "metric",
+      "content": "DFX红线：链上存证呈现≤1s；策略：预加载缓存命中+增量注入，实测延迟<1s",
+      "evidence_key": "chain:latency_metric",
+      "track": "both"
+    }
+  ]
+}

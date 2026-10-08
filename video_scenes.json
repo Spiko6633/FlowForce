@@ -1,0 +1,185 @@
+[
+  {
+    "scene": 1,
+    "title": "FlowForge AI",
+    "subtitle": "多智能体工作流编排平台",
+    "bullets": [
+      "主赛道 AI×Blockchain；分赛道 GCC 公共物品",
+      "汉客松 S1 与 ETH Wuhan 2026 参赛作品",
+      "可编排 · 可评分 · 可存证"
+    ],
+    "duration": 7,
+    "technique": "text_only",
+    "transition": "fadein",
+    "note": "启幕：大标题居中淡入+缩放，副标题与三个标签卡依次出现。"
+  },
+  {
+    "scene": 2,
+    "title": "AI开发痛点",
+    "subtitle": "流程割裂、协作低效、结果难验证：AI开发三大痛点",
+    "bullets": [
+      "智能体各自为战，缺乏协同编排",
+      "审查、测试、文档、安全各自为政",
+      "AI 产出无链上凭证，审计成本高"
+    ],
+    "duration": 8,
+    "technique": "text_only",
+    "transition": "fadein",
+    "note": "四个痛点卡片从左滑入，红色色条强化问题感。"
+  },
+  {
+    "scene": 3,
+    "title": "多智能体编排",
+    "subtitle": "一句话下达目标，多智能体全流程自主协同",
+    "bullets": [
+      "可视化工作流编排，像搭积木组装",
+      "13 智能体模板覆盖审查测试文档诊断安全",
+      "已运行 65 工作流，262 条执行记录"
+    ],
+    "duration": 8,
+    "technique": "agent_trajectory",
+    "transition": "slide_left",
+    "note": "工作流节点逐个点亮+连线动画，右侧统计数字跳动。"
+  },
+  {
+    "scene": 4,
+    "title": "五维评分引擎",
+    "subtitle": "正确性·完整性·及时性·创新性·稳定性，五维量化评分",
+    "bullets": [
+      "五维独立打分，加权生成 0-100 综合分",
+      "已累计 594 条评分记录",
+      "低分自动触发复检，形成质量闭环"
+    ],
+    "duration": 8,
+    "technique": "score_radar",
+    "transition": "dissolve",
+    "note": "雷达图五轴依次生长+评分卡片进度条动画。"
+  },
+  {
+    "scene": 5,
+    "title": "链上存证",
+    "subtitle": "每步执行结果上链存证，全程可追溯、可审计",
+    "bullets": [
+      "结果哈希写入 BOT Chain 主网",
+      "Solidity 存证合约已部署 Chain ID 677",
+      "任何人可通过 Scan 独立验证"
+    ],
+    "duration": 7,
+    "technique": "chain_flow",
+    "transition": "slide_left",
+    "note": "五步流水线依次点亮，末尾展示链上信息与可验证声明。"
+  },
+  {
+    "scene": 6,
+    "title": "AI×区块链主赛道",
+    "subtitle": "AI决策×链上信任，深度融合可信执行闭环",
+    "bullets": [
+      "AI 解决生产效率，区块链解决可信归属",
+      "执行结果与评分记录双重上链",
+      "为 AI 经济提供结算、激励、追责基础设施"
+    ],
+    "duration": 8,
+    "technique": "bar_chart",
+    "transition": "zoom_in",
+    "note": "赛道契合度柱状图增长动画+右侧要点列表。"
+  },
+  {
+    "scene": 7,
+    "title": "GCC公共物品赛道",
+    "subtitle": "让AI工程能力成为人人可用的公共基础设施",
+    "bullets": [
+      "30 市场模板 + 13 智能体模板全免费开放",
+      "五维评分公开，团队可对标同一质量基准",
+      "链上存证公开可查，形成公共可信数据层",
+      "非排他、可组合，用者越多公共价值越高"
+    ],
+    "duration": 7,
+    "technique": "text_only",
+    "transition": "slide_left",
+    "note": "公共物品四属性卡片依次滑入。"
+  },
+  {
+    "scene": 8,
+    "title": "双赛道协同",
+    "subtitle": "AI×Blockchain + GCC公共物品，一份作品双重价值",
+    "bullets": [
+      "主赛道：多智能体编排 + 链上存证解决 AI 可信度",
+      "分赛道：开放模板与评分标准赋能全行业",
+      "双赛道同源：同一套代码、数据、信任体系"
+    ],
+    "duration": 7,
+    "technique": "text_only",
+    "transition": "dissolve",
+    "note": "三张赛道卡片依次滑入，底部团队署名。"
+  },
+  {
+    "scene": 9,
+    "title": "真实运行数据",
+    "subtitle": "不是概念演示，是已跑通的真实产品",
+    "bullets": [
+      "65 工作流 · 262 执行 · 594 评分",
+      "30 市场模板 · 13 智能体模板",
+      "BOT Chain 主网真实部署，欢迎现场验证"
+    ],
+    "duration": 7,
+    "technique": "data_chart",
+    "transition": "zoom_in",
+    "note": "真实数据柱状图增长+右侧高亮数字卡片。"
+  },
+  {
+    "scene": 10,
+    "title": "Agent实操实录",
+    "subtitle": "一次任务下达，多智能体自主拆解分工执行",
+    "bullets": [
+      "一句话目标：完成带链上存证的竞品分析报告",
+      "Planner 拆 5 子任务，Researcher/Coder/Reviewer 并行接管",
+      "轨迹面板滚动：分配→调用→回传→交接，无人工干预"
+    ],
+    "duration": 10,
+    "technique": "agent_trajectory",
+    "transition": "dissolve",
+    "note": "左侧对话输入框，右侧 Agent 执行轨迹树逐节点点亮，强调零人工干预。"
+  },
+  {
+    "scene": 11,
+    "title": "大模型调用实拍",
+    "subtitle": "真实API调用·真实Token消耗·真实推理延迟",
+    "bullets": [
+      "画中画日志：模型请求、流式返回、耗时与 Token 刷新",
+      "多模型路由：自动匹配最优模型，兼顾质量成本",
+      "失败自动重试 + 降级，保障长链路不中断"
+    ],
+    "duration": 10,
+    "technique": "pip",
+    "transition": "zoom_in",
+    "note": "主画面为产品界面，右下角画中画嵌入终端日志窗口同步播放。"
+  },
+  {
+    "scene": 12,
+    "title": "系统架构全景",
+    "subtitle": "编排层·执行层·评分层·存证层，四层解耦",
+    "bullets": [
+      "编排层：任务图调度与智能体生命周期管理",
+      "执行层：工具调用、模型路由、上下文与记忆管理",
+      "评分层 + 存证层：五维评分输出，哈希摘要上链"
+    ],
+    "duration": 10,
+    "technique": "architecture",
+    "transition": "slide_left",
+    "note": "架构图分层自下而上逐层浮现，数据流向动效箭头由蓝转绿暗示可信闭环。"
+  },
+  {
+    "scene": 13,
+    "title": "竞赛亮点总结",
+    "subtitle": "多智能体编排×链上存证×五维评分，作品双赛道价值",
+    "bullets": [
+      "技术：多智能体协作可验证，结果可量化追溯复现",
+      "赛道契合：AI×Blockchain 主赛道 + GCC 公共物品分赛道双线命中",
+      "落地：已跑通真实数据，非概念原型，可复用开源"
+    ],
+    "duration": 10,
+    "technique": "summary",
+    "transition": "fadeout",
+    "note": "三点式卡片依次弹入，最后三卡合一收束为项目 Logo 与团队署名，留 1.5s 定格结尾。"
+  }
+]

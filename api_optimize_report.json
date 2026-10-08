@@ -1,0 +1,13 @@
+{
+  "api_call_count": 6,
+  "groups_total": 6,
+  "groups_success": 6,
+  "stats": {
+    "call_count": 6,
+    "total_tokens": 17908,
+    "model": "deepseek-v4.1",
+    "max_tokens": 16000,
+    "concurrency": 4,
+    "api_key_masked": "sk-opc-t****vYi7"
+  }
+}

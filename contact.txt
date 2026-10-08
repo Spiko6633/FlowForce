@@ -1,0 +1,7 @@
+﻿Team: 啥都队 (Shadu Team)
+Competition: XiHack 2026 (西客松) + 汉客松 S1 & ETH Wuhan 2026
+Track: AI×Blockchain (主赛道) / GCC Public Good (分赛道)
+Project: FlowForge AI - 面向AI工作流可信执行的多智能体编排与链上存证平台
+Version: v2.58
+Contact: 15018808475
+Email: shadu.team@xihack2026.dev

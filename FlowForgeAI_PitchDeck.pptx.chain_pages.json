@@ -1,0 +1,26 @@
+{
+  "marker": "chain_evidence_page",
+  "source_ppt": "D:\\西客松\\FlowForgeAI_PitchDeck.pptx",
+  "track": "core",
+  "incremental": true,
+  "preserved_xikesong": true,
+  "page_count": 2,
+  "pages": [
+    {
+      "page_id": "chain_page_arch",
+      "title": "链上存证架构图",
+      "layout": "architecture",
+      "content": "存证架构：Agent执行结果 → 内容哈希 → ERC-8004注册 → BOT Chain合约落块 → 链上回读验证 → 第三方可独立验证",
+      "evidence_key": "chain:value_points",
+      "track": "both"
+    },
+    {
+      "page_id": "chain_page_latency_metric",
+      "title": "存证延迟≤1s指标",
+      "layout": "metric",
+      "content": "DFX红线：链上存证呈现≤1s；策略：预加载缓存命中+增量注入，实测延迟<1s",
+      "evidence_key": "chain:latency_metric",
+      "track": "both"
+    }
+  ]
+}
